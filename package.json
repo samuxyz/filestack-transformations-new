@@ -1,0 +1,40 @@
+{
+  "name": "filestack-transformations-new",
+  "version": "1.0.0",
+  "description": "Filestack transformations with React",
+  "main": "index.js",
+  "repository": "https://github.com/samuxyz/filestack-transformations-new.git",
+  "author": "samuxyz <zaza.samuele@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "api": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "filestack-js": "^0.3.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "3.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "css-loader": "^0.27.3",
+    "eslint": "^3.18.0",
+    "eslint-loader": "^1.6.3",
+    "eslint-plugin-react": "^6.10.0",
+    "html-webpack-plugin": "^2.28.0",
+    "json-server": "^0.9.6",
+    "react-hot-loader": "next",
+    "style-loader": "^0.14.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-html-plugin": "^0.1.1"
+  }
+}
