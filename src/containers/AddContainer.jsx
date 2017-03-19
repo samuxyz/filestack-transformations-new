@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import filestack from 'filestack-js';
-const client = filestack.init('Anj637BlDTyMhOXjonqruz');
+const client = filestack.init('YOUR_API_KEY');
 
 const filestackCDN = 'https://cdn.filestackcontent.com';
 
